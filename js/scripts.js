@@ -1,2 +1,4 @@
-$Document
-document.getElementById("design").innerHTML
+$(document).ready(function(){
+    $.getElementById("design").innerHTML
+    
+}

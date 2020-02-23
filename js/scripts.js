@@ -1,4 +1,6 @@
 $(document).ready(function(){
-    $.getElementById("design").innerHTML
-    
+    $.getElementById("design").click(function){
+        
+    }
+    $
 }

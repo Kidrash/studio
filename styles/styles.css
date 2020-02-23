@@ -1,5 +1,22 @@
-img p {
-    display: none;
-  }
-  img  {
-    display: none
+body{
+    margin: 0rem;
+    padding: 0rem;
+    background-color: ivory;
+    font-family: sans-serif;
+}
+.container{
+    width: 1280px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.container .box{
+    position: relative;
+    width : 300px;
+    height: 300px;
+    background: #ff0;
+    margin: 10px;
+    box-sizing: border-box;
+    display: border-box;    
+}

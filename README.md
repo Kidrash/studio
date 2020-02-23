@@ -17,7 +17,7 @@ they collaborate with your team to write and improve code on a daily basis, usin
 planning and development is iterativ. because we are constantly coding and testing the products 
 
 ## Known Bugs
-
+If you find any bug feel free to correct it and make necessary changes to the project. 
 
 ## Technologies Used
 HTML

@@ -45,9 +45,9 @@ $("button").click(function(event){
   event.preventDefault();
   var input1 = document.getElementById('name').value;
   var email = document.getElementById('email').value;
-  var user = document.getElementById('contactform').reset();
+  var user = document.getElementById('contact').reset();
   if (input1 && email != ''){
-      alert('Thanks ' +   input1 + " we've got you covered.");
+      alert('Thanks ' +   input1 + " we'll start working on your project as soon as possible!!");
   }else {
     alert ('Invalid input')
   }

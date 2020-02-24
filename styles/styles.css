@@ -46,4 +46,31 @@
     bottom: 15px;
     top: 15px;
 } 
-
+.hov p{
+    padding: 5px;
+    padding-top: 5px;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transform: rotate3d(100%);
+}
+p {
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hov {
+    background-color: white;
+    width: 100%;
+    opacity: 75;
+    margin: auto;
+    margin-top: -75%;
+    position: absolute;
+    height: 100%;   
+}
+#designp{
+    display: none;
+}
+#devp{
+    display: none;
+}
+#prodp{
+    display: none;
+}

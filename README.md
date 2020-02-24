@@ -26,7 +26,7 @@ JavaScript
 jQuery
 
 ## Support and contact details
-If there are any questions, ideas, suggestions to improve,  then feel freee to contact me
+If you might be having any questions, ideas or suggestions to improve the project,  then feel freee to contact me
 @markkaranja11@gmail.com
  
 ### License

@@ -10,51 +10,59 @@
     <title>Delani Studio</title>
 </head>
 <body>
-    <div class="container-fluid min-vh-100 align-items-center justify-content-center" id="landing-pg">    
-        <div class="row">
+    <div class="container-fluid" id="landing-pg">    
+        <div class="row min-vh-100 align-items-center text-center justify-content-center flex-column">
             <div class="col-md-12 text-center text-white" id="head">
-                <h1><span class="space">WELCOME</span></h1>
-                <h1>TO DELANI STUDIO</h1>
+                <img src="assets/logo/logo.png" alt="">
+                <h1><span class="space">WELCOME <br> TO DELANI STUDIO</span></h1>
                 <p><span id="pple">AMAZING PEOPLE ARE MAKING AN AMAZING DESIGN IN A FUN ENVIRONMENT</span> </p>
-            </div>
-            <div class="col-md-12 text-center" id="last">
-               <a href="#about"><img src="./images/mouse_click.png" class="mouse animated bounceIn infinite" class="image2" alt=""></a> 
+                <div class="mouse"><img src="assets/mouse_click.png" alt="" id="mouse"></div>
             </div>
         </div>
     </div>
 <hr>
-    <div class="container">
+    <div class="container text-center">
         <h2>About Us</h2>
         <p id="about">When you work with us, you are part of a team of commited collaborators. All aspects of our software development processes are intergrated, interractive and agile.</p>
         <p id="about">Our approach unifies design,development and product managements ot createeceptional products.</p>
         <p id="about">We start each project by understanding your business goals, the User's needs and the product requirements, then we help translate them into effective and elegant solutions.</p>
     </div>
 <hr>
-    <div class="container">
+    <div class="container-fluid text-center text-white align-items-center" id="services">
         <h3>Services</h3>
         <p id="service">Before we sign a contract or write a line of code ur team will spend the necessary time needed to understand your product vision</p>
         <p id="service">The outcome of this session is proposal or high-level statement of work, based on your requirements we can provide complete offering or just the pieces you need.</p>
     </div>
 <hr>
-    <div class="container">
-        <h4>What We Do</h4>
-    <div class="row text-center">
+    <div class="container text-center">
+        <h4>WHAT WE DO</h4>
+    <div class="design row text-center">
         <div onclick="myFunction" class="col-sm">
-            <p id="design">
-                <img src="assets/services_icons/design_icon.png">
-                </p>
+            <p id="design"><img src="assets/services_icons/design_icon.png"></p>
+            <p>DESIGN</p>
+            <div class="designp">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+                </div>
             </div>
-        <div onclick="myFunction" class="col-sm">
-            <img src="assets/services_icons/dev_icon.png">
+        <div onclick="myFunction" class=" dev col-sm">
+            <p id="development"><img src="assets/services_icons/dev_icon.png"></p>
+            <p>DEVELOPMENT</p>
+            <div class="devp">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+                </div>
         </div>
-        <div onclick="myFunction" class="col-sm">
-            <img src="assets/services_icons/product_icon.png">
+        <div onclick="myFunction" class="prod col-sm">
+            <P id="product"><img src="assets/services_icons/product_icon.png"></P>
+            <p>PRODUCT MANAGEMENT</p>
+            <div class="prodp">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+            This iterative process allows for changes as business requirements evolve.</div>
         </div>
     </div>
 <hr>
     </div>
 
-    <div class="container">
+    <div class="container text-center" id="portfolio">
+        <H1>PORTFOLIO</H1>
         <div class="row no-gutters">
             <div class="box col-md-3">
                 <img src="assets/portfolio/work1.jpg">
@@ -91,26 +99,20 @@
         </div>
     </div>
 <hr>
-            <div class="add-stylist-form">
-				<form>
-					<div class="form-group mb15">
-			            <div class="btn btn-default fs11 col">
-		                    <input type="text" name="name" id="name" placeholder="Name">
-		                    <label for="name">Your Name</label>
-		                </div>
-		                    <div class="btn btn-default fs11 col-md-6">
-		                        <input type="text" name="email"  id="email" placeholder="email">
-		                        <label for="email">E-mail</label>
-                            </div>
-		                        <div class="btn btn-default fs11 col-md-12 >
-		                            <input type="text" name="contact"  id="contact" placeholder="contact">
-		                            <label for="contact us">Your message</label>
-		                        </div>
+            <div class=" container-fluid text-white text-center" id="form">
+                <h1>CONTACT US</h1>
+				<form action="#" class="form-horizontal">
+					<div class="form-group row">
+                        <input type="text" class="form-control m-2 col-sm-5" placeholder="Name...">
+                        <input type="text" class="form-control m-2 col-sm-5" placeholder="Email...">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="" id="" rows="6" placeholder="Your text here..." class="form-control col-sm-11" ></textarea>
                     </div>
 			    </form>	
-		    </div>
-
-    <div class="container">
+            </div>
+            <div class="footer">
+    <div class="container text-center" id="icons">
         <img src="./assets/social_icons/behance.png">
         <img src="./assets/social_icons/dribble.png">
         <img src="./assets/social_icons/facebook.png">
@@ -121,8 +123,9 @@
         <img src="./assets/social_icons/stumble_upon.png">
         <img src="./assets/social_icons/twitter.png">
         <img src="./assets/social_icons/you_tube.png">
-        <p id="close">Delani Studio</p>
-        <p id="close-date">2020</p>
+        <p id="close"><strong>DELANI STUDIO</strong></p>
+        <p id="year"><strong>2020</strong></p>
     </div>
+</div>
 </body>
 </html>

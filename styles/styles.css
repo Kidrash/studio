@@ -14,6 +14,36 @@
 .box img {
     width: 90%;
 }
-#img-desc {
-    
+#mouse {
+    position: absolute;
+    bottom: 2px;
+    float: inline-end;
 }
+#services {
+    background: url("../assets/backgrounds/s_image.jpg");
+    padding: 85px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#portfolio p{
+    display: none;
+}
+#form {
+    background: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+.form-control {
+    background: transparent;
+    color: white;
+    opacity: 1;
+    padding: 12px;
+}
+.footer {
+    padding: 20px;
+    bottom: 15px;
+    top: 15px;
+}
+

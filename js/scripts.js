@@ -1,39 +1,38 @@
 $(document).ready(function(){
-  $(".design").click(function(){
-    $(".design").hide();
+   $(".designp").click(function(){
+    $(".designp").hide();
+    $("#design").toggle();
+    $("#design").show();
+  })
+ $("#design").click(function(){
+    $("#design").hide();
     $(".designp").toggle();
     $(".designp").show();
   })
 
-  $(".designp").click(function(){
-    $(".design").toggle();
-    $(".designp").hide();
-    $(".design").show();
+  $(".devp").click(function(){
+    $("#dev").toggle();
+    $(".devp").hide();
+    $("#dev").show();
   })
 
-  $(".dev").click(function(){
-    $(".dev").hide();
+ $("#dev").click(function(){
+    $("#dev").hide();
     $(".devp").toggle();
     $(".devp").show();
   })
 
-  $(".devp").click(function(){
-    $(".dev").toggle();
-    $(".devp").hide();
-    $(".dev").show();
-  })
+    $(".prodp").click(function(){
+    $("#prod").toggle();
+    $(".prodp").hide();
+    $("#prod").show();
+  });
 
-  $(".prod").click(function(){
-    $(".prod").hide();
+$("#prod").click(function(){
+    $("#prod").hide();
     $(".prodp").toggle();
     $(".prodp").show();
   })
-
-  $(".prodp").click(function(){
-    $(".prod").toggle();
-    $(".prodp").hide();
-    $(".prod").show();
-  });
 
   $('.hov').hover(function () {
     $(this).animate({opacity:'0.3'});

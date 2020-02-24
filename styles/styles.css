@@ -1,22 +1,19 @@
-body{
-    margin: 0rem;
-    padding: 0rem;
-    background-color: ivory;
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+#landing-pg {
+    background-image: url('../assets/backgrounds/h_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.container{
-    width: 1280px;
-    margin: 70px auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
+
+
+.box {
+    padding: 10px;
 }
-.container .box{
-    position: relative;
-    width : 300px;
-    height: 300px;
-    background: #ff0;
-    margin: 10px;
-    box-sizing: border-box;
-    display: border-box;    
+.box img {
+    width: 90%;
+}
+#img-desc {
+    
 }

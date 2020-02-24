@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="styles/styles.css" type="text/css">
-    <script src="js/scripts.js"></script>
-    <script src="jq/jquery-3.4.1.js"></script>
-    <title>Delani Studio</title>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>Delani Studio</title>
 </head>
 <body>
     <div class="container-fluid" id="landing-pg">    
@@ -38,22 +35,20 @@
         <h4>WHAT WE DO</h4>
     <div class="design row text-center">
         <div onclick="myFunction" class="col-sm">
-            <p id="design"><img src="assets/services_icons/design_icon.png"></p>
-            <p>DESIGN</p>
+            <p id="design"><img src="assets/services_icons/design_icon.png"><br>DESIGN</p>
             <div class="designp">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
                 Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
                 </div>
             </div>
         <div onclick="myFunction" class=" dev col-sm">
-            <p id="development"><img src="assets/services_icons/dev_icon.png"></p>
-            <p>DEVELOPMENT</p>
+            <p id="dev"><img src="assets/services_icons/dev_icon.png"><br>DEVELOPMENT</p>
+          
             <div class="devp">All engineers are fluent in the latest enterprise, mobile and web development technologies.
                 They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
                 </div>
         </div>
         <div onclick="myFunction" class="prod col-sm">
-            <P id="product"><img src="assets/services_icons/product_icon.png"></P>
-            <p>PRODUCT MANAGEMENT</p>
+            <P id="prod"><img src="assets/services_icons/product_icon.png"><br>PRODUCT MANAGEMENT</br></P>
             <div class="prodp">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
             This iterative process allows for changes as business requirements evolve.</div>
         </div>
@@ -126,7 +121,7 @@
                         <textarea name="" id="" rows="6" placeholder="Your text here..." class="form-control col-sm-11" ></textarea>
                     </div>
                     <div class="text-right">
-                   <button type="submit" class="btn" value="reset">Submit</button> 
+                   <button type="submit" class="btn text-white" value="reset">Submit</button> 
                     </div>
                 </form>	
             </div>
@@ -146,5 +141,7 @@
         <p id="year"><strong>2020</strong></p>
     </div>
 </div>
+<script src="js/scripts.js" charset="UTF-8"></script>
+<script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
 </body>
 </html>

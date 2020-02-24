@@ -16,8 +16,8 @@
 }
 #mouse {
     position: absolute;
-    bottom: 2px;
-    float: inline-end;
+    bottom: 0px;
+    top: 145%;
 }
 #services {
     background: url("../assets/backgrounds/s_image.jpg");
@@ -45,5 +45,5 @@
     padding: 20px;
     bottom: 15px;
     top: 15px;
-}
+} 
 
